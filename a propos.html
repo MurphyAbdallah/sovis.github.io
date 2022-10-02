@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SOVI</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active">SOVI</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">Accueil</a>
+      <a href="#news">A propos de nous</a>
+      <a href="#news">Nos actions</a>
+      <a href="#contact">Partenaires</a>
+      <a href="#about">Galerie</a>
+      <a href="#about">Nous joindre</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+    <main>
+        <div class="background-propos">
+            <h1>
+                A propos Solidarité-Villages asbl, SOVI
+            </h1><br>
+            <p>Apporter du soutien aux communautés en souffrance</p>
+        </div>
+
+        <section class="hero-section">
+            <article>
+                <p>Nous sommes Solidarité-Villages asbl, SOVI en sigle, une ONG locale de développement, non confessionelle, apolitique, humanitaire et sans but lucratif, enregistrée en RD. Congo conformément à la loi N° 004/2001 du 20 Juillet 2001 portant dispositions générales applicables aux associations sans but lucratif et aux établissements d’utilité publique en République Démocratique du Congo.</p>
+            </article>
+            <article>
+                    
+        </section>
+
+        <section class="facts">
+            <article></article>
+            <p>1. PREAMBULE</p>
+        <li>
+            <ol>
+                Convaincu de la capacité d'adaptation de l'homme;
+                Conscient de l'avance des uns par rapport aux autres dans le domaine scientifique, technologique, économique, organisationnel...
+            </ol>
+        </li>
+        <li>
+            <ol>
+                Estimant que la solidarité peut apporter plus des solutions qu'on ne l'imagine;
+                L'élite villageoise d'Uvira a trouvé impérieux de faire face aux trois points suivants pour lutter contre la détérioration, toujours croissante, des conditions de vie des villageois:
+            </ol>
+        </li>
+        <li>
+            <ol>
+                l'ignorance de ce qui se passe sous d'autres cieux en matière d'exploitation optimale des ressources locales;
+                l'idée répendue que la pauvreté est une fatalité;
+                l'inéxistence à Uvira, d'organisations ayant pour objectif principal l'encouragement et l'application des innovations venues d'ailleurs et s'adaptant aux réalités locales pour palier aux problèmes éducatifs, sanitaires, agricoles, environnementaux, sociaux et artisanaux (en 1999); l'année de la création de SOVI asbl.<span id="dots"></span>
+            </ol>
+        </li>
+    </article>
+    <section>
+        <span id="more">
+            <p>2. DE LA CREATION ET DENOMINATION</p>
+            <li>
+                <ol>
+                    Conformément au décret-loi du 18 septembre 1965, il est crée en ce jour du Lundi 14 Juin mil neuf cent quatre-vingt dix-neuf, une association sans but lucratif de solidarité et d'éducation au développement, dénommée SOLIDARITE-VILLAGES, SOVI en sigle.
+                </ol>
+            </li>
+            <p>3. DU SIEGE SOCIAL</p>
+            <li>
+                <ol>
+                    Le siège social de SOVI asbl est fixé à Uvira. Sur 83, Av. Kimbangu, Q. Kabindula.
+                    Les statuts de l'organisation stipulent que le siège peut être déplacé en tout autre lieu de la République Démocratique du Congo sur décision de l'assemblée générale en cas de nécessité. Actuellement vu l'ampleur des projets, SOVI asbl par son assemblée élective a établi d'autres résidences dites élues en guise de représentation.
+                </ol>
+            </li>
+            <p>4. DU RAYON D'ACTION</p>
+            <li>
+                <ol>
+                    SOVI asbl oeuvre actuellement dans toute la province du Sud-Kivu et bientôt dans toute la République Démocratique du Congo.
+                    SOVI asbl mène ses actions dans les domaines d'intervention suivants:<br>
+                    <a href="">
+                        Urgences
+                        Education
+                        Santé
+                        Environnement et SECAL
+                        Paix et Gouvernance
+                        Genre, Enfant et Jeunesse
+                        Infrastructures
+                    </a>
+                </ol>
+            </li>
+            <p>4. DU RAYON D'ACTION</p>
+            <li>
+                <ol>
+                    SOVI asbl oeuvre actuellement dans toute la province du Sud-Kivu et bientôt dans toute la République Démocratique du Congo.
+                    SOVI asbl mène ses actions dans les domaines d'intervention suivants:<br>
+                    
+                </ol>
+            </li>
+        </span>
+    </section>
+        
+        
+    <button onclick="myFunction()" id="myBtn">Lire davantage</button>
+        </section>
+        
+                    
+    </main>
+    <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+    }
+    /*Read button javascript*/
+    function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+    </script>
+
+</body>
+
+    <footer>
+        <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>Companu</h4>
+                  <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href=""></a>Our services</li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Afifiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Get help</h4>
+                  <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href=""></a>Our services</li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Afifiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>About us</h4>
+                  <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href=""></a>Our services</li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Afifiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>About us</h4>
+                  <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href=""></a>Our services</li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Afifiliate program</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="fas fa-facebook-f"></i></i></a>
+                    <a href="#"><i class="fas fa-twitter"></i></i></a>
+                    <a href="#"><i class="fas fa-linkedin-in"></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </footer>
+
+</html>

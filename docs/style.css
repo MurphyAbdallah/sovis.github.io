@@ -53,7 +53,7 @@
  }
 
 .background-img{
-   background-image: url(/img/g30.jpg);
+   background-image: url(asset/g30.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -116,7 +116,7 @@ button{
 /*start the about us page*/
 
 .background-propos{
-  background-image: url(/img/g21.jpg);
+  background-image: url(asset/g21.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

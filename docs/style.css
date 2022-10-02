@@ -53,7 +53,7 @@
  }
 
 .background-img{
-   background-image: url(g30.jpg);
+   background-image: url(/img/g30.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
